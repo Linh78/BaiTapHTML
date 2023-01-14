@@ -1,0 +1,15 @@
+Ajax:
+ - AJAX: Asynchronous JavaScript and XML.
+ - The Ajax speeds up response time: ajax tăng tốc độ phản hồi
+ - Is the method of exchange data with a server, and updating parts of a web page, without reloading the entire page
+  là một phương thức trao đổi dữ liệu với máy chủ và cập nhật những phần trong 1 trang web mà không cần phải tải lại toàn bộ trang
+
+Benefits:
+ - CallBacks: ??
+ - Making Asynchronous Calls: ??
+ - User-Friendly
+ - Improve the speed, performance and usability of a web application
+
+Implementation of Ajax can be done in two way in ASP.Net Application
+ - using Update Panel
+ - USING jQuery

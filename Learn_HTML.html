@@ -1,0 +1,89 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML</title>
+</head>
+<body>
+    <h4>Cách tạo 1 liên kết (link)</h4>
+    <p>Tùy chỉnh nơi mở tài liệu: </p>
+    <p>Tài liệu mở bên trong khung hiên tại (mặc định): <a href="Profile/index.html" target="_self">link</a></p>
+    <p>Tài liệu mở bên trong tab hiện tại : <a href="Profile/index.html" target="_top">link</a></p>
+    <p>Tài liệu mở bên trong một tab mới: <a href="Profile/index.html" target="_blank">link</a></p>
+    <p>Tài liệu mở bên trong khung cha của khung hiện tại: <a href="Profile/index.html" target="_parent">link</a></p>
+    <p>Download tài liệu khi user click vào liên kết: <a href="Learn_HTML.txt" download="">click</a></p>
+    
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The jQuery Example</title>
+ <script type="text/javascript"
+ src="jquery-3.6.3.min.js"></script>
+
+ <script type="text/javascript" language="javascript">
+
+ $(document).ready(function() {
+ $("div").click(function() {
+ alert("Hello world!");
+ });
+ });
+ </script>
+</head>
+<body>
+<div id="newdiv">
+Click on this to see a dialogue box.
+</div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.6.3.min.js"></script>
+    <script>
+       $(document).ready(function(){
+        $("button").mouseleave(function(){
+            $(".Linh").hide();
+        });
+        $("button").click(function(){
+            $(".Linh").show();
+        })
+       })
+
+       $(document).ready(function(){
+        $(".btn1").click(function(){
+            $(".test1").text("Hà nội");
+        })
+        $(".btn2").click(function(){
+            $(".test2").html("<b>Hòa Bình</b>");
+        })
+        $(".btn3").click(function(){
+            $(".test3").load("Learn_HTML.txt");
+        })
+       })
+    </script>
+</head>
+<body>
+    <p>Hello</p>
+    <p class="Linh">My name is Linh</p>
+    <h1 class="Linh">21 tủi</h1>
+    <button>click để xóa thẻ</button>
+
+    <p class="test1"></p>
+    <button class="btn1">test 1</button>
+    <p class="test2">Hi</p>
+    <button class="btn2">test 2</button>
+    <div class="test3"></div>
+    <button class="btn3">test 3</button>
+</body>
+</html>
+
